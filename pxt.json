@@ -1,0 +1,31 @@
+{
+    "name": "Tetris Game )",
+    "version": "1.2.0",
+    "description": "Stack shapes efficiently before the well fills!",
+    "dependencies": {
+        "device": "*",
+        "pxt-arcade-info-screens": "github:robo-technical-group/pxt-arcade-info-screens#v1.0.8",
+        "controller": "*"
+    },
+    "files": [
+        "main.ts",
+        "custom.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.6",
+        "tag": "v1.2.6",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/7f343e1ba30a4c31de6b7b14d288d34b2741b2f4",
+        "target": "1.12.22",
+        "pxt": "6.2.21",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
